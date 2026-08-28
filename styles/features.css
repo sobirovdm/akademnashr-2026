@@ -1,0 +1,44 @@
+/* Features Section */
+.features { 
+    padding: 210px 0;
+    background-color: #fff;
+    margin-bottom: 120px;
+}
+
+.features .orange-line { margin-bottom: 24px; }
+
+.features__title {
+    width: 435px;
+    font-size: 72px;
+    margin-bottom: 72px;
+}
+
+.features__list { display: flex; }
+
+.feature {
+    width: 340px;
+    margin-right: 40px;
+}
+
+.feature:last-child { margin-right: 0; }
+
+.feature__icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(255, 119, 0, 0.2);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 32px;
+}
+
+.feature__title {
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.feature__text { width: 314px; }
+

@@ -1,0 +1,14 @@
+/* Hover Styles */
+.logo:hover,
+.btn:hover { opacity: .8; }
+
+.navbar__link:hover,
+.socials__link:hover,
+.footer__link:hover { color: var(--orange-color); }
+
+/* Active Styles */
+.logo:active, 
+.btn:active,
+.navbar__link:active,
+.socials__link:active,
+.footer__link:active { opacity: .6; }

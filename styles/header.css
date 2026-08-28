@@ -1,0 +1,32 @@
+/* Header Section */
+.header {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 5px solid var(--orange-color);
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+    margin-left: auto;
+    margin-right: 32px;
+}
+.navbar__item:not(:last-child) { margin-right: 32px; }
+
+.navbar__link {
+    text-transform: uppercase;
+    color: var(--primary-font-color);
+    transition: color .4s ease,
+    opacity .4s ease;
+    
+}
+
+.navbar__link_active {
+    color: var(--orange-color);
+    border-bottom: 3px solid var(--orange-color);
+}

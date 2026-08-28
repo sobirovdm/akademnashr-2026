@@ -1,0 +1,37 @@
+/* Sale Section */
+.sale {
+    border-radius: 12px;
+    color: var(--secondary-font-color);
+    background-color: var(--dark-color);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-bottom: 160px;
+}
+
+.sale__content {
+    width: 440px;
+    margin-right: 92px;
+}
+
+.sale__title {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.sale__info { margin-bottom: 24px; }
+
+.sale__text:not(:last-child) { margin-bottom: 12px; }
+
+.sale__text strong { color: var(--orange-color); }
+
+.sale__img-wrapper {
+    position: relative;
+    bottom: 64px;
+}
+.sale__img {
+    display: block;
+    border-radius: 12px;
+}
