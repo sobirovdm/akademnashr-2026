@@ -1,7 +1,7 @@
 /* Header Section */
 .header {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-top: 5px solid var(--orange-color);
     background-color: #fff;
 }
@@ -14,9 +14,9 @@
 .navbar__list {
     display: flex;
     margin-left: auto;
-    margin-right: 32px;
+    margin-right: 2rem;
 }
-.navbar__item:not(:last-child) { margin-right: 32px; }
+.navbar__item:not(:last-child) { margin-right: 2rem; }
 
 .navbar__link {
     text-transform: uppercase;
