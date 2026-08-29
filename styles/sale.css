@@ -8,22 +8,22 @@
     justify-content: center;
     align-items: center;
     
-    margin-bottom: 160px;
+    margin-bottom: 10rem;
 }
 
 .sale__content {
     width: 440px;
-    margin-right: 92px;
+    margin-right: 5.75rem;
 }
 
 .sale__title {
-    font-size: 40px;
-    margin-bottom: 24px;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
 }
 
-.sale__info { margin-bottom: 24px; }
+.sale__info { margin-bottom: 1.5rem; }
 
-.sale__text:not(:last-child) { margin-bottom: 12px; }
+.sale__text:not(:last-child) { margin-bottom: 0.75rem; }
 
 .sale__text strong { color: var(--orange-color); }
 
