@@ -28,7 +28,7 @@
 
 body {
     font-family: "Roboto", "Arial", "Helvetica", sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.5px;
@@ -60,8 +60,8 @@ body {
 .container {
     width: 100%;
     max-width: 1100px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
     margin-left: auto;
     margin-right: auto;
     box-sizing: content-box;
@@ -70,9 +70,9 @@ body {
 /* Button Styles */
 .btn {
     display: inline-block;
-    padding: 12px 24px;
+    padding: 0.75rem 1.5rem;
     border-radius: 4px;
-    font-size: 0.8125rem;
+    font-size: 0.75rem; /* 12 / 16 = 0.75rem */
     font-weight: 700;
     color: var(--secondary-font-color);
     border: 1px solid var(--orange-color);
