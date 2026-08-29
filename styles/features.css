@@ -1,23 +1,23 @@
 /* Features Section */
 .features { 
-    padding: 210px 0;
+    padding: 13.125rem 0; /* 210 / 16 = 13.125rem */
     background-color: #fff;
-    margin-bottom: 120px;
+    margin-bottom: 7.5rem; /* 120 / 16 = 7.5rem */
 }
 
-.features .orange-line { margin-bottom: 24px; }
+.features .orange-line { margin-bottom: 1.5rem; /* 24 / 16 = 1.5rem */ }
 
 .features__title {
     width: 435px;
     font-size: 4.5rem;
-    margin-bottom: 72px;
+    margin-bottom: 4.5rem; /* 72 / 16 = 4.5rem */
 }
 
 .features__list { display: flex; }
 
 .feature {
     width: 340px;
-    margin-right: 40px;
+    margin-right: 2.5rem; /* 40 / 16 = 2.5rem */
 }
 
 .feature:last-child { margin-right: 0; }
@@ -32,13 +32,12 @@
     align-items: center;
     justify-content: center;
     
-    margin-bottom: 32px;
+    margin-bottom: 2rem; /* 32 / 16 = 2rem */
 }
 
 .feature__title {
     font-size: 1.5rem;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem; /* 12 / 16 = 0.75rem */
 }
 
 .feature__text { width: 314px; }
-
