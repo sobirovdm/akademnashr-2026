@@ -12,14 +12,14 @@
 
 .hero-content { width: 387px; }
 
-.hero-content .orange-line { margin-bottom: 40px; }
+.hero-content .orange-line { margin-bottom: 2.5rem; /* 40 / 16 = 2.5rem */ }
 
 .hero__title {
     font-size: 2.5rem;
-    margin-bottom: 24px;
+    margin-bottom: 1.5rem; /* 24 / 16 = 1.5rem */
 }
 
-.hero__text { margin-bottom: 32px; }
+.hero__text { margin-bottom: 2rem; }
 
 .hero__img-wrapper {
     position: relative;
